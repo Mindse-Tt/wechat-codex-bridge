@@ -192,6 +192,9 @@ codex exec --json --sandbox workspace-write --cd <你的工作目录>
 </div>
 
 
+<details>
+<summary>文字版（方便复制搜索）</summary>
+
 > **我**：你让我等你，你以为你能过去看到我的一些文件吧？你能看到哪些？
 >
 > **它**：不是，我不能"过去看到你电脑上的所有文件"。在这次微信协助里，我只能在当前工作目录里工作：
@@ -206,6 +209,8 @@ codex exec --json --sandbox workspace-write --cd <你的工作目录>
 > .wechat-inbox/
 > ```
 > 所以我现在看不到你的微信聊天记录、桌面文件、下载文件夹，也不会去工作目录外找。
+
+</details>
 
 沙箱是真的。
 
