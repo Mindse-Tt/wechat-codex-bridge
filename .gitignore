@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.log
+.env
+.wechat-codex-bridge/
+.claude/
+CLAUDE.md
+.wechat-inbox/
+qrcode.png

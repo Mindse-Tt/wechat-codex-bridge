@@ -1,0 +1,42 @@
+{
+  "name": "wechat-codex-bridge",
+  "version": "1.0.0",
+  "description": "Chat with local OpenAI Codex from WeChat through a restricted personal bridge",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "npm run build",
+    "start": "node dist/main.js",
+    "run": "node dist/main.js start",
+    "dev": "tsc --watch",
+    "test": "node --test dist/tests/codex-*.test.js",
+    "setup": "node dist/main.js setup",
+    "daemon": "bash scripts/daemon.sh",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/qrcode": "^1.5.6",
+    "@types/qrcode-terminal": "^0.12.0",
+    "typescript": "^5.7.0"
+  },
+  "keywords": [
+    "wechat",
+    "codex",
+    "openai",
+    "bridge",
+    "chat",
+    "skill"
+  ],
+  "author": "Mindse-Tt",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mindse-Tt/wechat-codex-bridge.git"
+  },
+  "homepage": "https://github.com/Mindse-Tt/wechat-codex-bridge"
+}

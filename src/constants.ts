@@ -1,0 +1,8 @@
+import { homedir } from 'node:os';
+import { join } from 'node:path';
+
+export const DATA_DIR = process.env.WECHAT_CODEX_DATA_DIR || join(homedir(), '.wechat-codex-bridge');
+
+export const DEFAULT_WORKING_DIR = join(homedir(), 'Documents', 'Codex', 'wechat-codex-workspace');
+
+export const CDN_BASE_URL = 'https://novac2c.cdn.weixin.qq.com/c2c';
